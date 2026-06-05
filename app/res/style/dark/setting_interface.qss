@@ -1,0 +1,26 @@
+QScrollArea {
+    border: none;
+}
+
+#SettingInterface,
+#SettingInterfaceViewContainer {
+    background-color: transparent;
+}
+
+PrimaryPushButton {
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background-color: #0078D4; /* Fluent Primary Blue */
+    color: white;
+    border: none;
+    qproperty-flat: true;
+}
+
+PrimaryPushButton:hover {
+    background-color: #108DE0;
+}
+
+PrimaryPushButton:pressed {
+    background-color: #006AC1;
+}
