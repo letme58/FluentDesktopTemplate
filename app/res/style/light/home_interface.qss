@@ -6,3 +6,32 @@ QScrollArea {
 #DashBoardInterfaceViewContainer {
     background-color: transparent;
 }
+
+RobotCard, StatisticsCard {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+RobotCard:hover, StatisticsCard:hover {
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid #0078d4;
+}
+
+SubtitleLabel {
+    color: black;
+    font-weight: 600;
+}
+
+TitleLabel {
+    color: #0078d4;
+}
+
+CaptionLabel {
+    color: #616161;
+}
+
+ProgressBar::chunk {
+    background-color: #0078d4;
+    border-radius: 2px;
+}
