@@ -1,6 +1,6 @@
 from typing import Optional, Union, TYPE_CHECKING
 
-from qfluentwidgets import qrouter, isDarkTheme, FluentStyleSheet, NavigationItemPosition
+from qfluentwidgets import qrouter, isDarkTheme, FluentStyleSheet, NavigationItemPosition, NavigationInterface
 from PySide6.QtCore import Qt
 from PySide6.QtGui import QIcon, QPainter, QColor
 from PySide6.QtWidgets import QWidget, QHBoxLayout
